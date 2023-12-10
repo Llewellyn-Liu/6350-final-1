@@ -17,6 +17,8 @@
 		FFA5C64F2B251E3D00E149AC /* PhotoFall_finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5C64E2B251E3D00E149AC /* PhotoFall_finalTests.swift */; };
 		FFA5C6592B251E3D00E149AC /* PhotoFall_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5C6582B251E3D00E149AC /* PhotoFall_finalUITests.swift */; };
 		FFA5C65B2B251E3D00E149AC /* PhotoFall_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5C65A2B251E3D00E149AC /* PhotoFall_finalUITestsLaunchTests.swift */; };
+		FFA5C6692B251F9300E149AC /* FallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5C6672B251F9300E149AC /* FallTableViewCell.swift */; };
+		FFA5C66A2B251F9300E149AC /* FallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA5C6682B251F9300E149AC /* FallTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FFA5C6542B251E3D00E149AC /* PhotoFall-finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoFall-finalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA5C6582B251E3D00E149AC /* PhotoFall_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFall_finalUITests.swift; sourceTree = "<group>"; };
 		FFA5C65A2B251E3D00E149AC /* PhotoFall_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFall_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFA5C6672B251F9300E149AC /* FallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallTableViewCell.swift; sourceTree = "<group>"; };
+		FFA5C6682B251F9300E149AC /* FallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FallTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				FFA5C6422B251E3C00E149AC /* LaunchScreen.storyboard */,
 				FFA5C6452B251E3C00E149AC /* Info.plist */,
 				FFA5C63D2B251E3600E149AC /* PhotoFall_final.xcdatamodeld */,
+				FFA5C6672B251F9300E149AC /* FallTableViewCell.swift */,
+				FFA5C6682B251F9300E149AC /* FallTableViewCell.xib */,
 			);
 			path = "PhotoFall-final";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA5C66A2B251F9300E149AC /* FallTableViewCell.xib in Resources */,
 				FFA5C6442B251E3C00E149AC /* LaunchScreen.storyboard in Resources */,
 				FFA5C6412B251E3C00E149AC /* Assets.xcassets in Resources */,
 				FFA5C63C2B251E3600E149AC /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA5C6692B251F9300E149AC /* FallTableViewCell.swift in Sources */,
 				FFA5C6392B251E3600E149AC /* ViewController.swift in Sources */,
 				FFA5C6352B251E3600E149AC /* AppDelegate.swift in Sources */,
 				FFA5C63F2B251E3600E149AC /* PhotoFall_final.xcdatamodeld in Sources */,
